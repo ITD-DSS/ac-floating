@@ -1,0 +1,4 @@
+9/25/17 AJasinski 
+	- Updated font from Josefin Slab to Merriweather in index.scss
+	- Updated background image call from "mountains.jpg" to "bg.jpg"
+	- Updated background image size styling to "cover"

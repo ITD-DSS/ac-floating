@@ -1,0 +1,35 @@
+/* Tabs
+   ========================================================================== */
+
+.nav-tabs {
+  li {
+    a {
+      color: #555;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: transparent;
+        border: 0;
+        color: #000;
+        font-weight: 700;
+      }
+    }
+
+    &.active {
+      a,
+      a:hover,
+      a:focus {
+        border-radius: 0;
+        border: 0;
+        background-color: transparent;
+        color: #000;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+/* for demo only */
+.nav-container {
+  padding: 0 10%;
+}

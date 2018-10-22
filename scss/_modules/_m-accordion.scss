@@ -1,0 +1,55 @@
+/* Accordion
+   ========================================================================== */
+
+.accordion {
+  .panel {
+    border-radius: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .panel-heading {
+    background: transparent;
+  }
+
+  .panel-toggle {
+    font-family: $font-stack_default;
+    font-weight: 700;
+    color: #000;
+    display: block;
+
+    &.collapsed {
+      color: inherit;
+      font-weight: 400;
+    }
+
+    &:focus {
+      text-decoration: none;
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: #000;
+      font-weight: 700;
+
+
+      .arrow {
+        color: #000;
+      }
+    }
+
+    .arrow {
+      font-size: inherit;
+      color: inherit;
+      transform: translateY(2px);
+
+      &:before {
+        content: '\e313';
+      }
+    }
+
+    &.collapsed .arrow:before {
+      content: '\e315';
+    }
+  }
+}

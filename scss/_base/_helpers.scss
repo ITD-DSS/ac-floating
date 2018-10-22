@@ -1,0 +1,17 @@
+/* ==========================================================================
+   Helper Classes
+   ========================================================================== */
+
+.adobe-reader {
+  margin-top: 8px;
+
+  @media (max-width: $screen-sm) {
+    display: none;
+  }
+}
+
+hr {
+  visibility: hidden;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}

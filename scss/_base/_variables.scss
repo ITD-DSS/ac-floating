@@ -1,0 +1,19 @@
+// variables
+
+//colors
+
+
+// font
+$font_open-sans: 'Open Sans';
+$font_merriweather: 'Merriweather';
+$font_sans-serif: 'sans-serif';
+$font_material-icons: 'Material Icons';
+
+// font stack
+$font-stack_default: $font_open-sans, $font_sans-serif;
+$font-stack_header: $font_merriweather, $font_sans-serif;
+
+// bootstrap screen dimensions
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-lg: 1200px;
